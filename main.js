@@ -11,6 +11,7 @@ function letters(oldString) {
       newArray.push(oldArray[i]);
     };
   };
-  var newString = newArray.join("");
-  return newString;
+  return newArray.join("");
 };
+
+console.log(letters("stuff"));
